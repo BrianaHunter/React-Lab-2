@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  margin: 45px;
+
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.post-container {
+  padding: 20px;
+  width: 800px;
+  gap: 100px;
+  justify-content: space-between;
+  background-color: #f8e8ec;
+  border-radius: 5px;
+}
+
+.post-title {
+  padding-bottom: 10px;
+  display: block;
+  /* border-bottom: 1px solid #000; */
+}
+
+.post-thought {
+  display: block;
+  padding-bottom: 20px;
+  font-size: 12px;
+  text-indent: 5px;
+}
+
+.delete-btn {
+  display: block;
+}
